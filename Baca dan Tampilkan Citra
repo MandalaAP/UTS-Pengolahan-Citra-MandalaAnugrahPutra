@@ -1,0 +1,7 @@
+from PIL import Image
+import numpy as np
+import matplotlib.pyplot as plt
+#No 1(satu uts)'membaca dan menampilkan citra radiografi
+
+citra_radiografi = Image.open('x-ray.jpg')
+citra_radiografi
